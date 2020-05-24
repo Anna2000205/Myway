@@ -5,6 +5,8 @@
 # складывать все ваши файлы изображений в папку images.
 # Например, сцену bg room можно вызвать файлом "bg room.png",
 # а eileen happy — "eileen happy.webp", и тогда они появятся в игре
+
+## Видео в первом меню игры
 init -2:
     image mm_bg = Movie(play="gui/main_menu.mpg",size=(720,1280))
 
@@ -12,6 +14,8 @@ label main_menu:
     scene mm_bg
     jump main_menu_screen
 
+
+## Начало игры
 label start:
 
     "Перед началом игры введите свое имя:"
