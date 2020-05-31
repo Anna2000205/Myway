@@ -1,0 +1,14 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 17: expected statement.
+    datetime.datetime.now()
+                           ^
+
+File "game/script.rpy", line 23: expected ':' not found.
+    else
+        ^
+
+Ren'Py Version: Ren'Py 7.3.5.606
+Sun May 31 11:17:21 2020
